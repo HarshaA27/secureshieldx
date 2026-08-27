@@ -17,11 +17,11 @@ class UserProfileScreen extends StatefulWidget {
 }
 
 class _UserProfileScreenState extends State<UserProfileScreen> {
-  String _userName = 'Dr. Alex Vance';
-  String _email = 'alex.vance@secureshield.io';
-  String _phone = '+91 98765 43210';
-  String _emergencyContact = '+91 98123 99999 (Cyber Cell Emergency)';
-  String _alertLanguage = 'English (🇺🇸)';
+  final String _userName = 'Dr. Alex Vance';
+  final String _email = 'alex.vance@secureshield.io';
+  final String _phone = '+91 98765 43210';
+  final String _emergencyContact = '+91 98123 99999 (Cyber Cell Emergency)';
+  final String _alertLanguage = 'English (🇺🇸)';
   bool _biometricEnabled = true;
 
   void _showLogoutModal() {
@@ -160,7 +160,7 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
                     title: const Text('Biometric Fingerprint / FaceID Unlock', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)),
                     subtitle: const Text('Require biometrics to open administrative tools', style: TextStyle(fontSize: 11)),
                     value: _biometricEnabled,
-                    activeColor: AppColors.primary,
+                    activeThumbColor: AppColors.primary,
                     onChanged: (val) => setState(() => _biometricEnabled = val),
                   ),
                 ],

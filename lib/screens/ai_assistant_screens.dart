@@ -878,7 +878,7 @@ class AiAvatarCustomizationScreen extends StatefulWidget {
 
 class _AiAvatarCustomizationScreenState extends State<AiAvatarCustomizationScreen> {
   String _selectedPersonality = 'Cyber Guardian';
-  String _selectedVoice = 'Female (En-US Neural)';
+  final String _selectedVoice = 'Female (En-US Neural)';
   bool _isPlayingAudio = false;
 
   final List<Map<String, dynamic>> _personalities = [

@@ -1,5 +1,4 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:secureshieldx/core/models/app_models.dart';
 import 'package:secureshieldx/core/services/app_scanner_service.dart';
 import 'package:secureshieldx/core/widgets/risk_badge.dart';
 
