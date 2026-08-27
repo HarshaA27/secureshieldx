@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "2319117944",
+    "project_id": "fir-f58c4",
+    "storage_bucket": "fir-f58c4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2319117944:android:54a6879409c589d48ac78d",
+        "android_client_info": {
+          "package_name": "com.secureshieldx.secureshieldx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTN1Kp6IBVaKWgccGkRsKXsO-7xRAjD5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
