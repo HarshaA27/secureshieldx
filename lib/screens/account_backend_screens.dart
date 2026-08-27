@@ -17,10 +17,10 @@ class UserProfileScreen extends StatefulWidget {
 }
 
 class _UserProfileScreenState extends State<UserProfileScreen> {
-  final String _userName = 'Dr. Alex Vance';
+  String _userName = 'Dr. Alex Vance';
   final String _email = 'alex.vance@secureshield.io';
-  final String _phone = '+91 98765 43210';
-  final String _emergencyContact = '+91 98123 99999 (Cyber Cell Emergency)';
+  String _phone = '+91 98765 43210';
+  String _emergencyContact = '+91 98123 99999 (Cyber Cell Emergency)';
   final String _alertLanguage = 'English (🇺🇸)';
   bool _biometricEnabled = true;
 
